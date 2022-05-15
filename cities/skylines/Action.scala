@@ -18,7 +18,7 @@ class Action(input: String) {
     * wrapper; if the command was not recognized, `None` is returned. */
   
   
-  //evalutes the string written in the console by the player
+  //evaluates the string written in the console by the player
   def execute(actor: Player) = {
     
     

@@ -2,7 +2,7 @@ package cities.skylines
 
 import scala.util.Random
 
-//This singletone object is created to give other classes access to the 3 variables
+//This singleton object is created to give other classes access to the 3 variables
 object Adventure {
   
   var numberOfRightAnswers = 0
@@ -25,7 +25,7 @@ class Adventure {
 
   
   /** The title of the adventure game. */
-  val title = "Cities: Hightides"
+  val title = "Cities: HighTides"
 
   
   private val Finland     = new Area("finland", "helsinki")
@@ -54,12 +54,12 @@ class Adventure {
 """Welcome to Cities: Skylines
 You would think this game has something to do with the original game that you've maybe heard of.
 Maybe this game has some nice graphics and natural disasters. No. 
-Maybe it still has some epic traffic simulation and realistic game progrssion.
-The answer is no. The answer is propabbly no to any oof your questions. 
+Maybe it still has some epic traffic simulation and realistic game progression.
+The answer is no. The answer is probably no to all your questions. 
 The sole purpose of the game title is to gather revenue. 
-We just copied the name for marketing resons. 
+We just copied the name for marketing reasons. 
 Hopefully your expectations for the game are as low as they get, 
-cause otherwise they will get even lower when the game starts.
+because otherwise they will get even lower when the game starts.
 
 How to play the game:
 This game is going to test your geography knowledge.
